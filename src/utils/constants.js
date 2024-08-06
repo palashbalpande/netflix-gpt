@@ -10,5 +10,12 @@ export const USER_ICON_URL =
 export const PHOTO_URL = 
     "https://static.dc.com/dc/files/default_images/Char_Profile_Batman_20190116_5c3fc4b40faec2.47318964.jpg";
 
+export const API_OPTIONS = {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+          Authorization: `Bearer ${process.env.REACT_APP_TMDB_API_KEY}`
+        }
+}
 
 
