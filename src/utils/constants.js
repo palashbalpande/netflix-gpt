@@ -27,4 +27,4 @@ export const SUPPORTED_LANGUAGES = [
     { identifier: "sanskrit", name: "Sanskrit" },
 ];
 
-
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
