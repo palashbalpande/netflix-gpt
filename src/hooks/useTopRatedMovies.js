@@ -19,6 +19,7 @@ const useTopRatedMovies = () => {
 
   useEffect(() => {
     !topRatedMovies && getTopRatedMovies();
+    // eslint-disable-next-line
   }, []);
 
 }
